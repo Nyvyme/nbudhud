@@ -31,6 +31,7 @@ hudanimations_manifest
     "file"      "#customization/_enabled/bh_animate_foreground.txt"
     "file"      "#customization/_enabled/bh_spy_hidedisguiseicon.txt"
     "file"      "#customization/_enabled/bh_medic_rainbowcharge.txt"
+    "file"      "#customization/_enabled/bh_n_hitmarker_manifest.txt"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Standard
