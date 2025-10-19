@@ -10,6 +10,46 @@
         }
     }
 
+    "subject_modelpanel"
+    {
+        "itemmodelpanel"
+        {
+            "allow_rot"                                             "0"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
+    }
+
+    "paint_model"
+    {
+        "itemmodelpanel"
+        {
+            "allow_rot"                                             "0"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
+    }
+
+    "paint_model_red"
+    {
+        "itemmodelpanel"
+        {
+            "allow_rot"                                             "0"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
+    }
+
+    "paint_model_blue"
+    {
+        "itemmodelpanel"
+        {
+            "allow_rot"                                             "0"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
+    }
+
     "bh_ConfirmDialog_BG"
     {
         "ControlName"                                               "ImagePanel"
@@ -23,7 +63,6 @@
         "pinCorner"                                                 "0"
         "labeltext"                                                 ""
         "visible"                                                   "0"
-        "enabled"                                                   "0"
         "fillcolor"                                                 "bh_Theme_BG20"
         "image"                                                     ""
         "paintbackgroundtype"                                       "0"
@@ -42,7 +81,7 @@
     "ExplanationLabel"
     {
         "wide"                                                      "280"
-        //"tall"                                                      "60" // dynamic value
+        // "tall"                                                      "60" // dynamic value
         "fgcolor_override"                                          "bh_Theme_TextSecondary"
         "font"                                                      "bh_Font12"
     }

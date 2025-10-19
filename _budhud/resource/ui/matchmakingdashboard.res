@@ -10,13 +10,6 @@
 
     "TopBar"
     {
-        "OuterShadow"
-        {
-            "ypos"                                                  "r-6969"
-            "visible"                                               "0"
-            "enabled"                                               "0"
-        }
-
         "FindAGameButton"
         {
             "wide"                                                  "50"
@@ -129,6 +122,12 @@
             }
         }
 
+        "Gradient"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "BGPanel"
         {
             "bgcolor_override"                                      "bh_Theme_BG20"
@@ -142,7 +141,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "JoinPartyLobbyContainer"	// join party member's mm game
@@ -151,7 +149,6 @@
             {
                 "ypos"                                              "r-6969"
                 "visible"                                           "0"
-                "enabled"                                           "0"
             }
 
             "BGPanel"
@@ -194,7 +191,6 @@
             {
                 "ypos"                                              "r-6969"
                 "visible"                                           "0"
-                "enabled"                                           "0"
             }
 
             "CloseButton"
@@ -218,7 +214,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
             }
 
@@ -242,7 +237,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
             }
         }

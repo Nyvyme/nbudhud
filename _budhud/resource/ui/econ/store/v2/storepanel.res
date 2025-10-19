@@ -4,35 +4,30 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "CloseButton"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BackgroundHeader"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BackgroundFooter"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "FooterLine"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "bh_BackgroundFooter"
@@ -91,7 +86,6 @@
 
     "ypos"                                                      "r-6969"
     "visible"                                                   "0"
-    "enabled"                                                   "0"
     }
 
     "CheckoutButton"
@@ -155,10 +149,18 @@
 
     "Sheet"
     {
+        "tabxindent"                                                "80"  // Tab left/right position
+        "tabxdelta"                                                 "3"   // Gap between tabs
+        "tabwidth"                                                  "240" // Tab width
+        "tabheight"                                                 "20"  // Tab height
+        "transition_time"                                           "0"   // Fade in between tabs
+
+        "yoffset"                                                   "0" // keep at 0 (use "titletextinsetY" for vertical adjustments of whole panel instead)
+
         "HeaderLine"
         {
             "ControlName"                                           "EditablePanel"
-            "ypos"                                                  "19" // no s or p
+            "ypos"                                                  "20" // = "tabheight". no s or p
             "zpos"                                                  "101"
             "tall"                                                  "2"
             "bgcolor_override"                                      "bh_blank"

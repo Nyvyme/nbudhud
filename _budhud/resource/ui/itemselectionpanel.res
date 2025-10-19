@@ -11,12 +11,6 @@
         "infocus_bgcolor_override"                                  "bh_Theme_BG20"
         "outoffocus_bgcolor_override"                               "bh_Theme_BG20"
 
-        "modelpanels_selection_kv"
-        {
-            "model_wide"                                            "90"
-            "model_tall"                                            "60"
-        }
-
         "modelpanels_kv"
         {
             "itemmodelpanel"
@@ -182,41 +176,35 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "NameFilterLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "ClassLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BottomLine"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "TopLine"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "ItemSlotLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 }

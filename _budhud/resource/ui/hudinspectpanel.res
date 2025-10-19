@@ -8,8 +8,6 @@
 
         "model_center_y"                                            "1"
         "model_center_x"                                            "1"
-        "model_wide"                                                "90"
-        "model_tall"                                                "60"
         "noitem_use_fullpanel"                                      "0"
         "resize_to_text"                                            "1"
 
@@ -17,7 +15,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "bh_ItemBG"
@@ -36,7 +33,7 @@
 
         "itemmodelpanel"
         {
-            "useparentbg"                                           "0"
+            "useparentbg"                                           "1"
             "allow_rot"                                             "0"
             "inventory_image_type"                                  "1"
             "use_item_rendertarget"                                 "0"

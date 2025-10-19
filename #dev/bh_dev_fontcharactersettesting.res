@@ -1,6 +1,6 @@
 "Resource/UI/HudPlayerClass.res"
 {
-    "bh_classmodelpanel"
+    "classmodelpanel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
@@ -52,7 +52,7 @@
         "labelText"                                                 "Test: "
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font20"
-        "fgcolor"                                                   "bh_orange"
+        "fgcolor"                                                   "bh_Theme_TextAccent"
     }
 
     //
@@ -305,7 +305,41 @@
         "enabled"                                                   "1"
         "labelText"                                                 "THIS IS THE FALLBACK FONT. РУССКИЙ 中国人 123 . ! @ 日ひء"
         "textAlignment"                                             "center"
-        "font"                                                      "break"
+        "font"                                                      "break" // fallbacks to "Default" font
+        "fgcolor"                                                   "bh_bred"
+    }
+
+    "bh_DevTestLato"
+    {
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_DevTestLato"
+        "xpos"                                                      "cs-0.5"
+        "ypos"                                                      "30"
+        "zpos"                                                      "1"
+        "wide"                                                      "f0"
+        "tall"                                                      "f0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "labelText"                                                 "♰♱✝✞✟ †‡ Р абвгдеёжзийХШЩЯж ‏ ‰ 부드후드 ブドハド"
+        "textAlignment"                                             "center"
+        "font"                                                      "bh_Font14"
+        "fgcolor"                                                   "bh_bred"
+    }
+
+    "bh_DevTestStreamer"
+    {
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_DevTestStreamer"
+        "xpos"                                                      "cs-0.5"
+        "ypos"                                                      "50"
+        "zpos"                                                      "1"
+        "wide"                                                      "f0"
+        "tall"                                                      "f0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "labelText"                                                 "♰♱✝✞✟ †‡ Р абвгдеёжзийХШЩЯж ‏ ‰ 부드후드 ブドハド"
+        "textAlignment"                                             "center"
+        "font"                                                      "bh_Font_StreamerBlock14"
         "fgcolor"                                                   "bh_bred"
     }
 }

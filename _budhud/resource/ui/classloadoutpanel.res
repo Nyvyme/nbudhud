@@ -4,49 +4,42 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "ClassLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "CurrentlyEquippedLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "TopLine"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "TauntHintLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "TauntLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "TauntCaratLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "class_loadout_panel"
@@ -61,9 +54,6 @@
 
         "modelpanels_kv"
         {
-            "model_wide"                                            "90"	// 60 = skins centered but bigger non-skins cut off. higher = skins stretch to the right
-            "model_tall"                                            "60"	// 60 = lowest you can go without skin showing black bar
-
             "itemmodelpanel"
             {
                 "allow_rot"                                         "0"

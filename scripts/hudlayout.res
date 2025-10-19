@@ -3,6 +3,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     #base   "../#users/custom/scripts/hudlayout.res"
     #base   "../#users/custom/#customization/_enabled/bh_dev_grid.res"
+    #base   "../#users/custom/#customization/_enabled/bh_player_showvoiceavatars.res"
     #base   "../#users/custom/#customization/_enabled/bh_player_transparentviewmodels.res"
     #base   "../#users/custom/#customization/_enabled/bh_player_hidedamageindicator.res"
 
@@ -22,6 +23,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // HUD Customization
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+    #base   "../#customization/_enabled/bh_player_uicentered/hudlayout.res"
     #base   "../#customization/_enabled/bh_player_transparentviewmodels.res"
     #base   "../#customization/_enabled/bh_player_hidedamageindicator.res"
     #base   "../#customization/_enabled/bh_n_hitmarker.res"

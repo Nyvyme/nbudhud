@@ -1,4 +1,4 @@
-#base                                                               "hudinspectpanel.res"	// Base to hudinspectpanel to grab its itempanel
+"#base"                                                             "hudinspectpanel.res"	// Base to hudinspectpanel to grab its itempanel
 
 "Resource/UI/FreezePanel_Basic.res"
 {
@@ -6,7 +6,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "FreezePanelBase"
@@ -20,14 +19,12 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "FreezeLabelKiller"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "AvatarImage"
@@ -41,7 +38,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "bh_FreezePanelPin"
@@ -111,9 +107,5 @@
         "visible"                                                   "1"
         "enabled"                                                   "1"
         "bgcolor_override"                                          "0 0 0 0"
-    }
-
-    "itempanel" // pin doesn't behave correctly
-    {
     }
 }
